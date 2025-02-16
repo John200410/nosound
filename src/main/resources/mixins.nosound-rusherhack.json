@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "org.example.mixins",
+  "package": "org.rusherhack.nosound.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "MixinMinecraft"
+    "MixinSoundEngine"
   ]
 }

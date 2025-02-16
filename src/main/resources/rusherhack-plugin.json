@@ -1,15 +1,25 @@
 {
-  "Plugin-Class": "org.example.ExamplePlugin",
+  "Plugin-Class": "org.rusherhack.nosound.Plugin",
   "Name": "${project.plugin_name}",
   "Version": "${project.plugin_version}",
-  "Description": "Example rusherhack core plugin",
+  "Description": "Plugin to disable some sounds of the game",
   "Authors": [
     "John200410"
   ],
   "Minecraft-Versions": [
-    "${project.minecraft_version}"
+    "1.20.1",
+    "1.20.2",
+    "1.20.3",
+    "1.20.4",
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1",
+    "1.21.2",
+    "1.21.3",
+    "1.21.4"
   ],
   "Mixin-Configs": [
-    "mixins.example-plugin.json"
+    "mixins.nosound-rusherhack.json"
   ]
 }
